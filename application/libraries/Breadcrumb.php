@@ -126,7 +126,8 @@ class Breadcrumb {
 				if ($key) $output .= $this->_divider;
 				
 				// if last element
-				if (end(array_keys($this->breadcrumbs)) == $key) {
+				$error = count($this->breadcrumbs)-1;
+				if ($error == $key) {
 					$output .= '<li><strong>' . $crumb['title'] . '</strong></li>';
 					
 				// else add link and divider
