@@ -1,6 +1,5 @@
-Advertising
-===========
+# About
 
-Simple Website for Promote Your Product
+This is script editing fix php 7 MX
 
-cek out demo version http://advertising.gedelumbung.com
+create [Pemula Belajar](http://pemulabelajar.com, "Situs pemula belajar")
